@@ -94,10 +94,3 @@ class BSTNode:
     # Print Post-order recursive DFT
     def post_order_dft(self, node):
         pass
-
-node = BSTNode(5)
-node.insert(2)
-node.insert(3)
-node.insert(7)
-node.insert(8)
-print(node.get_max())
